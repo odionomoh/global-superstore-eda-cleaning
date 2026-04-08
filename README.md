@@ -6,38 +6,26 @@ Data understanding, exploratory analysis, and cleaning of the Global Superstore 
 ---
 
 ## 📑 Table of Contents
-
-[Project Overview](#-project-overview)
-
-[Dataset Summary](#-dataset-summary)
-
-[Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
-
-[Data Cleaning & Preprocessing](#-data-cleaning--preprocessing)
-
-[Decisions & Assumptions](#-decisions--assumptions)
-
--
--  [Challenges & Limitations](#️-challenges--limitations)
-
+- [📌 Project Overview](#-project-overview)
+- [📂 Dataset Summary](#-dataset-summary)
+- [🔍 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+- [🧹 Data Cleaning & Preprocessing](#-data-cleaning--preprocessing)
+- [🧠 Decisions & Assumptions](#-decisions--assumptions)
+- [⚠️ Challenges & Limitations](#️-challenges--limitations)
 - [📊 Final Cleaned Dataset](#-final-cleaned-dataset)
-  
 - [🛠 Tools Used](#-tools-used)
-  
 - [✅ Conclusion](#-conclusion)
-
 - [📁 Project Structure](#-project-structure)
-  
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 This project focuses on understanding and preparing the Superstore dataset for analysis.  
 The objective is to explore the dataset structure, identify data quality issues, and perform necessary cleaning to ensure it is suitable for further analysis and visualization.
 
 ---
 
-## Dataset Summary
+## 📂 Dataset Summary
 - **Dataset Name:** Global Superstore Dataset  
 - **Total Rows:** 51,291  
 - **Total Columns:** 24  
@@ -45,7 +33,7 @@ The objective is to explore the dataset structure, identify data quality issues,
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 ### 📊 Dataset Structure
 The dataset contains transactional data including:
@@ -56,13 +44,11 @@ The dataset contains transactional data including:
 - Geographic and regional data
 
 📸 **Dataset Preview (First Rows)**  
-
-<img width="1380" height="673" alt="Dataset Overview" src="https://github.com/user-attachments/assets/f8c24bf5-f1b2-4b53-9540-9c81feff87d8" />
-
+<img width="1380" height="673" alt="Dataset Overview" src="https://github.com/user-attachments/assets/785bd326-df40-4625-b223-86b71415e80f" />
 
 ---
 
-### Data Types & Formatting
+### 🔎 Data Types & Formatting
 - Date columns were initially not in proper date format  
 - Numeric columns were stored as **General format**
 
@@ -72,7 +58,8 @@ The dataset contains transactional data including:
 - Missing values were identified in the **Postal Code** column  
 
 📸 **Missing Values Evidence**  
-<img width="272" height="810" alt="Missing Values" src="https://github.com/user-attachments/assets/c1d3c8e1-8469-45cb-8209-112bd2ca6307" />
+<img width="272" height="810" alt="Missing Values" src="https://github.com/user-attachments/assets/f360e85a-79a6-4d4b-af67-a0a50f859bd3" />
+
 
 ---
 
@@ -80,7 +67,7 @@ The dataset contains transactional data including:
 - No duplicate records were found in the dataset  
 
 📸 **Duplicate Check**  
-<img width="1884" height="1001" alt="No Duplicate Confirmation" src="https://github.com/user-attachments/assets/9737fca9-cfa1-4f40-9133-fea0be9dce49" />
+<img width="1884" height="1001" alt="No Duplicate Confirmation" src="https://github.com/user-attachments/assets/073579fe-17ed-4c17-91f3-8ad2ea66cb7c" />
 
 
 ---
@@ -100,7 +87,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 - Some transactions show unusually high or low values  
 
 📸 **Outlier Detection (Profit Sorted)**  
-7<img width="90" height="805" alt="Outliers" src="https://github.com/user-attachments/assets/76146dfb-16ae-4739-9940-1bd8a6d0d636" />
+<img width="90" height="805" alt="Outliers" src="https://github.com/user-attachments/assets/91243d5e-0c6f-449f-8560-038e409ac43b" />
 
 
 
@@ -108,7 +95,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## Data Cleaning & Preprocessing
+## 🧹 Data Cleaning & Preprocessing
 
 ### ✅ Steps Performed
 
@@ -128,6 +115,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 - Measures time between order and shipment  
 - Helps evaluate delivery efficiency  
 
+
 ---
 
 #### 💰 Profit Margin
@@ -137,7 +125,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## Decisions & Assumptions
+## 🧠 Decisions & Assumptions
 
 ### 📌 Key Decisions
 - Postal Code missing values were left unchanged to preserve data integrity  
@@ -152,7 +140,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## Challenges & Limitations
+## ⚠️ Challenges & Limitations
 
 ### 🚧 Challenges
 - Difficulty handling blank Postal Code values due to formatting inconsistencies  
@@ -164,7 +152,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## Final Cleaned Dataset
+## 📊 Final Cleaned Dataset
 
 The dataset is now:
 - Structured and organized  
@@ -173,17 +161,17 @@ The dataset is now:
 - Enriched with new calculated fields  
 
 📸 **Clean Dataset Preview**  
-<img width="1892" height="816" alt="Final Clean Daaset" src="https://github.com/user-attachments/assets/070be236-62d3-4550-9f25-353e6ccc5aed" />
+<img width="1892" height="816" alt="Final Clean Daaset" src="https://github.com/user-attachments/assets/35da2e8d-ff13-472b-ae09-cdfdf15fb400" />
 
 
 ---
 
-## Tools Used
+## 🛠 Tools Used
 - Microsoft Excel  
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 The dataset has been successfully cleaned and prepared for analysis.  
 Key data quality issues were addressed, and new features were created to enhance analytical capabilities.
 
@@ -194,15 +182,13 @@ The dataset is now ready for:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 📦 superstore-kpi-analysis
  ┣ 📂 images
  ┃ ┣ dataset_overview.png
  ┃ ┣ missing_values.png
  ┃ ┣ no_duplicates.png
- ┃ ┣ delivery_days.png
- ┃ ┣ profit_margin.png
  ┃ ┣ outliers.png
  ┃ ┗ clean_dataset.png
  ┣ 📄 superstore_cleaned.xlsx
