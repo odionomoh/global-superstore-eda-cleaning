@@ -17,7 +17,7 @@ Data understanding, exploratory analysis, and cleaning of the Global Superstore 
 - [✅ Conclusion](#-conclusion)
 - [📁 Project Structure](#-project-structure)
 
----
+---9
 
 ## 📌 Project Overview
 This project focuses on understanding and preparing the Superstore dataset for analysis.  
@@ -190,6 +190,6 @@ The dataset is now ready for:
  ┃ ┣ missing_values.png
  ┃ ┣ no_duplicates.png
  ┃ ┣ outliers.png
- ┃ ┗ clean_dataset.png
- ┣ 📄 superstore_cleaned.xlsx
+ ┃ ┗ final_clean_dataset.png
+ ┣ 📄 Global_Superstore_cleaned.xlsx
  ┗ 📄 README.md
