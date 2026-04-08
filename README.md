@@ -33,7 +33,7 @@ The objective is to explore the dataset structure, identify data quality issues,
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### 📊 Dataset Structure
 The dataset contains transactional data including:
@@ -48,7 +48,7 @@ The dataset contains transactional data including:
 
 ---
 
-### 🔎 Data Types & Formatting
+###  Data Types & Formatting
 - Date columns were initially not in proper date format  
 - Numeric columns were stored as **General format**
 
@@ -95,7 +95,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+##  Data Cleaning & Preprocessing
 
 ### ✅ Steps Performed
 
@@ -125,7 +125,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## 🧠 Decisions & Assumptions
+##  Decisions & Assumptions
 
 ### 📌 Key Decisions
 - Postal Code missing values were left unchanged to preserve data integrity  
@@ -140,7 +140,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## ⚠️ Challenges & Limitations
+##  Challenges & Limitations
 
 ### 🚧 Challenges
 - Difficulty handling blank Postal Code values due to formatting inconsistencies  
@@ -152,7 +152,7 @@ Contain multiple unique values, making them useful for segmentation and analysis
 
 ---
 
-## 📊 Final Cleaned Dataset
+##  Final Cleaned Dataset
 
 The dataset is now:
 - Structured and organized  
@@ -166,12 +166,12 @@ The dataset is now:
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - Microsoft Excel  
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 The dataset has been successfully cleaned and prepared for analysis.  
 Key data quality issues were addressed, and new features were created to enhance analytical capabilities.
 
@@ -182,7 +182,7 @@ The dataset is now ready for:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 📦 superstore-kpi-analysis
  ┣ 📂 images
