@@ -184,7 +184,8 @@ The dataset is now ready for:
 
 ##  Project Structure
 
-📦 superstore-kpi-analysis
+📦  global-superstore-eda-cleaning
+
  ┣ 📂 images
  
  ┃ ┣ dataset_overview.png
