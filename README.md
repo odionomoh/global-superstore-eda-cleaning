@@ -5,27 +5,27 @@ Data understanding, exploratory analysis, and cleaning of the Global Superstore 
 
 ---
 
-## 📑 Table of Contents
-- [📌 Project Overview](#-project-overview)
-- [📂 Dataset Summary](#-dataset-summary)
-- [🔍 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
-- [🧹 Data Cleaning & Preprocessing](#-data-cleaning--preprocessing)
-- [🧠 Decisions & Assumptions](#-decisions--assumptions)
-- [⚠️ Challenges & Limitations](#️-challenges--limitations)
-- [📊 Final Cleaned Dataset](#-final-cleaned-dataset)
-- [🛠 Tools Used](#-tools-used)
-- [✅ Conclusion](#-conclusion)
-- [📁 Project Structure](#-project-structure)
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset Summary](#dataset-summary)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
+- [Decisions and Assumptions](#decisions-and-assumptions)
+- [Challenges and Limitations](#challenges-and-limitations)
+- [Final Cleaned Dataset](#final-cleaned-dataset)
+- [Tools Used](#tools-used)
+- [Conclusion](#conclusion)
+- [Project Structure](#project-structure)
 
----9
+---
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on understanding and preparing the Superstore dataset for analysis.  
 The objective is to explore the dataset structure, identify data quality issues, and perform necessary cleaning to ensure it is suitable for further analysis and visualization.
 
 ---
 
-## 📂 Dataset Summary
+##  Dataset Summary
 - **Dataset Name:** Global Superstore Dataset  
 - **Total Rows:** 51,291  
 - **Total Columns:** 24  
@@ -186,10 +186,17 @@ The dataset is now ready for:
 
 📦 superstore-kpi-analysis
  ┣ 📂 images
+ 
  ┃ ┣ dataset_overview.png
+ 
  ┃ ┣ missing_values.png
+ 
  ┃ ┣ no_duplicates.png
+ 
  ┃ ┣ outliers.png
+ 
  ┃ ┗ final_clean_dataset.png
+ 
  ┣ 📄 Global_Superstore_cleaned.xlsx
+ 
  ┗ 📄 README.md
